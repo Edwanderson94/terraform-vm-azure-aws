@@ -9,7 +9,7 @@ env:
   TF_VAR_aws_pub_key: ${{secrets.AWS_PUBLIC_KEY}}
   TF_VAR_azure_pub_key: ${{secrets.AZURE_PUBLIC_KEY}}
 
-Jobs:
+jobs:
   terraform:
     name: terraform
     runs-on: ubuntu-latest
